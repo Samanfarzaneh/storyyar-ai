@@ -1,0 +1,6 @@
+.env
+checkpoints
+db.sqlite3
+CodeFormer
+venv
+

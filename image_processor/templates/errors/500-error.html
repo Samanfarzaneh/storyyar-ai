@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خطای 400</title>
+    {% load static %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #192a56;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .error-container {
+            text-align: center;
+        }
+        .error-title {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #fbc531;
+        }
+        .error-message {
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+        .btn-home {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-title">500</div>
+        <p class="error-message"> :( اگه این صفحه رو میبینی یعنی به یه مشکل تو پردازش خوردیم </p>
+        <a href="/" class="btn btn-primary btn-home">بازگشت به صفحه اصلی</a>
+    </div>
+</body>
+</html>
